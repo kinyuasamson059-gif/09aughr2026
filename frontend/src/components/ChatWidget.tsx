@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from '../styles/app.module.css';
+import { postChat } from '../lib/api';
 
 interface Message {
   id: number;
@@ -31,12 +32,7 @@ function ChatWidget() {
     setIsTyping(true);
 
     try {
-      const response = await fetch('/api/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: userMessage.content, history: nextMessages })
-      });
-      const data = await response.json();
+      const data = await postChat(userMessage.content, nextMessages);
       setMessages([...nextMessages, { id: Date.now() + 1, role: 'assistant', content: data.reply }]);
     } catch (error) {
       setMessages([...nextMessages, { id: Date.now() + 2, role: 'assistant', content: 'The assistant is unavailable right now. Please try again shortly.' }]);
