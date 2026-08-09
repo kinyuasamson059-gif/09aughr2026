@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Maya Chen",
+    "role": "HR Manager",
+    "department": "People Operations",
+    "email": "maya.chen@peoplehub.com"
+  },
+  {
+    "name": "Daniel Kim",
+    "role": "Software Engineer",
+    "department": "Engineering",
+    "email": "daniel.kim@peoplehub.com"
+  },
+  {
+    "name": "Aisha Patel",
+    "role": "Finance Analyst",
+    "department": "Finance",
+    "email": "aisha.patel@peoplehub.com"
+  },
+  {
+    "name": "Luis Garcia",
+    "role": "Recruiter",
+    "department": "Talent Acquisition",
+    "email": "luis.garcia@peoplehub.com"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "greeting": "Welcome back, Maya",
+  "stats": [
+    { "title": "Leave Balance", "value": "18 days" },
+    { "title": "Pending Requests", "value": "4" },
+    { "title": "Next Payday", "value": "Aug 30" }
+  ],
+  "announcements": [
+    "Benefits enrollment closes on August 20.",
+    "New remote work policy is now available in the policies section.",
+    "Payroll office hours have been extended this week."
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "employee": "Maya Chen",
+    "type": "Vacation",
+    "start": "2026-08-14",
+    "end": "2026-08-18",
+    "status": "Approved"
+  },
+  {
+    "id": 2,
+    "employee": "Daniel Kim",
+    "type": "Sick",
+    "start": "2026-08-22",
+    "end": "2026-08-23",
+    "status": "Pending"
+  },
+  {
+    "id": 3,
+    "employee": "Aisha Patel",
+    "type": "Personal",
+    "start": "2026-09-02",
+    "end": "2026-09-03",
+    "status": "Approved"
+  }
+]
